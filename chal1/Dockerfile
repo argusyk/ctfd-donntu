@@ -1,3 +1,3 @@
-FROM php:7.2-apache
-COPY src/ /var/www/html/
+FROM nginx:stable-alpine
+COPY src/ /usr/share/nginx/html
 EXPOSE 80
