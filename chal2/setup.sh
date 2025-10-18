@@ -15,7 +15,7 @@ git add index.html
 git commit -m "Initial commit: setting up the homepage"
 
 # 3. Створення та коміт прапора (ВРАЗЛИВІСТЬ)
-echo "The flag is FLAG{G1T_H1d3s_Th3_S3cr3t}" > secret_flag.txt
+echo "The flag is FLAG{flag_placeholder}" > secret_flag.txt
 git add secret_flag.txt
 git commit -m "Added secret flag file temporarily"
 
