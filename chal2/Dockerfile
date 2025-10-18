@@ -1,4 +1,6 @@
 FROM nginx:stable-alpine
+ARG flag='FLAG{G1T_H1d3s_Th3_S3cr3t}'
+
 RUN apk update && \
     apk add --no-cache git bash && \
     rm -rf /var/cache/apk/*
