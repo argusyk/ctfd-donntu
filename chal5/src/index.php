@@ -9,7 +9,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 $pages = [
     'home' => 'pages/home.php',
     'bilyi_naliv' => 'pages/sort_bilyi_naliv.php',
-    'slava_peremozhtsiam' => 'pages/sort_slava_peremozhtsiam.php',
+    'slava_peremozhtsiam' => 'pages/slava_peremozhtsiam.php',
     'spartak' => 'pages/sort_spartak.php',
     'renet_symyrenka' => 'pages/sort_renet_symyrenka.php',
 ];
