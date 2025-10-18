@@ -10,4 +10,5 @@ COPY ./setup.sh /tmp/setup.sh
 
 RUN chmod u+x /tmp/setup.sh
 RUN sh /tmp/setup.sh
+RUN sed -i 's/FLAG{flag_placeholder}/'$flag'/' /tmp/setup.sh
 EXPOSE 80
